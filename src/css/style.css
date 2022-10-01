@@ -1,17 +1,19 @@
 body {
     background-color: #FFE2B0;
+    width: 1440px;
+    margin: 0;
 }
 header {
     text-align: center;
 }
-.main-nav-unit {
+.main-nav__unit {
     text-transform: uppercase;
     font-size: 18px;
     list-style-type: none;
     display: inline;
     margin-right: 100px;
 }
-.main-nav-unit:last-child{
+.main-nav__unit:last-child{
     margin-right: 0px;
 }
 .nav-link {
@@ -24,11 +26,20 @@ header {
 .main-nav {
     margin-bottom: 20px;
 }
-.main-nav-list {
+.main-nav__list {
     margin: 0px;
     padding: 0px;
 }
 .special-delivery {
     height: 640px;
     background: url(../img/01-Картинка-фона.jpg) no-repeat center/cover;
+}
+.special-delivery__block {
+    position: relative;
+    left: 730px;
+    top:349px;
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, 
+                rgba(234,156,65,0.8) 100%);
 }
